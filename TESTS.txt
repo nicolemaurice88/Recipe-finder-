@@ -1,0 +1,1674 @@
+DISCLAIMER:
+The program is not perfect. You will notice that tf_idf score picks up a lot of
+non-food items and sometimes it picks up the correct items.You will notice it both
+with in this text file and in your own testing. 
+
+
+
+<<<-------------------------------------TEST CASES---------------------------------->>>>
+
+|Test 1:|
+PS C:\Users\NaM\Desktop\NEIU\Fall 2019\Natural Language Processing\Code> python recipe_finder.py 1000.mmf 
+
+Hello and welcome to Grubby Recipe Finder!
+Today, we are going to find a recipe based on the things you already have at home.
+Let's get started!
+<----------------------------------------------------------------------------------------------------->
+
+
+ List ingredients that you have on hand (Please separate by a comma(,):potatoes,squash,onions,bell peppers
+
+The items you listed are:
+
+1 : potatoes
+
+2 : squash
+
+3 : onions
+
+4 : bell peppers
+
+
+Thank you! Now, I will now match you with recipes that best accomedates your ingredients
+
+
+We have located some matches, let's match you with the best one for you
+
+Please answer yes or no to the options below
+
+
+
+      title  1047004 cajun fried potatoes
+ categories  side dishes
+
+
+Do you like this recipe?
+yes
+
+Great! Now let's see if you have additional ingredients to make this recipe
+RESULTS:
+
+
+Do you have or can subsitute the following ingredient:HEAT
+yes
+
+Do you have or can subsitute the following ingredient:TOSS
+yes
+
+Do you have or can subsitute the following ingredient:WOK
+yes
+
+Excellent, you have all the ingredients needed. Here are your results
+
+
+
+      title  1047004 cajun fried potatoes
+ categories  side dishes
+       1 servings
+
+      4 lg white potatoes  unpared
+            scrubbed
+            boiling  salted water
+    1 2 ts salt
+    1 4 ts ground white pepper
+    1 4 ts ground black pepper
+    1 4 ts onion powder
+    1 4 ts garlic powder
+    1 8 ts ground cumin
+    1 8 ts ground cayenne pepper
+            about 2 c  oil  for frying
+
+  cut the potatoes into 1  cubes   add to boiling salted water  cook
+  just until fork tender but not mushy  about 7 minutes  drain and cool
+  meanwhile  in a bowl  combine the salt  peppers  onion and garlic
+  power  cumin and cayenne pepper   add the potatoes to the spices
+  toss to coat all pieces evenly   you may do this much in advance and
+  hold the potatoes as long as an hour before completing the dish  heat
+  about 1  oil in a wok or deep skillet to about 350 degrees or until a
+  piece of potato sizzles when added to the oil  add the potatoes  fry
+  until golden brown on all sides  turning frequently  remove from fat
+  drain and serve immediately
+
+mmmmm
+
+
+
+HAPPY COOKING!
+
+
+Would you like to find another recipe?  yes
+
+ List ingredients that you have on hand (Please separate by a comma(,):pot roast,carrots,celery
+
+The items you listed are:
+
+1 : pot roast
+
+2 : carrots
+
+3 : celery
+
+
+Thank you! Now, I will now match you with recipes that best accomedates your ingredients
+
+
+We have located some matches, let's match you with the best one for you
+
+Please answer yes or no to the options below
+
+
+
+      title  a better pot roast
+ categories  meats  mine
+
+
+Do you like this recipe?
+yes
+
+Great! Now let's see if you have additional ingredients to make this recipe
+RESULTS:
+
+
+Do you have or can subsitute the following ingredient:HEAT
+yes
+
+Do you have or can subsitute the following ingredient:JUICES
+yes
+
+Do you have or can subsitute the following ingredient:TOMATO
+yes
+
+Excellent, you have all the ingredients needed. Here are your results
+
+
+
+      title  a better pot roast
+ categories  meats  mine
+       8 servings
+
+      1    first cut brisket  5 lb
+            trimmed of all visible fat
+           freshly ground black pepper
+    1 4 c  corn oil
+      8    onion s   thickly sliced
+            separated into rings
+      6    carrots  peeled
+            cut in chunks
+      3    garlic clove s   minced
+      2    bay leaves
+      4 tb tomato paste
+           salt to taste
+     16 oz can tomatoes  with juice
+      1 c  dry red wine
+
+  note  make this a day ahead so you can skim off the fat  preheat oven
+  to 375øf  cover both sides of brisket with lots of pepper  over a
+  medium flame  heat the oil in a heavy casserole or roasting dish and
+  brown the brisket on all sides  take the brisket out of the pan and
+  set aside  add the onions to the casserole and cook them over
+  medium high heat  as you stir them  scrape up the brown bits from the
+  bottom of the casserole  cook the onions for about 15 minutes  or
+  until they are thoroughly browned  add the carrots  garlic  and bay
+  leaves  stir for another 1 2 minutes  take the casserole off the
+  burner and carefully put the brisket back into its nest of
+  vegetables  coat the brisket on both sides with tomato paste
+  sprinkle more pepper  and a little salt  over the tomato paste  pour
+  the tomatoes and red wine into the bottom of the casserole  cover the
+  casserole tightly  first with a layer of foil and then with the lid
+  let the pot roast cook on the middle rack of the oven for 3« hours
+  check the liquid level in the casserole frequently  if it gets too
+  low  add a little water or beef broth  when the meat is tender  take
+  it out of the oven  keep the meat covered while you cool it to room
+  temperature  then put it in the refrigerator overnight  the next day
+  spoon off all the solidified fat you can  discard the bay leaves
+  bring the meat back to room temperature and reheat it    along with
+  its juices and the vegetables    either on top of the stove or in the
+  oven  when it s hot  slice it on the diagonal and serve with the pan
+  juices and vegetables spooned over  add salt at the table  if needed
+
+mmmmm
+
+
+
+HAPPY COOKING!
+
+
+Would you like to find another recipe?  no
+
+Thank for using our services, have a great day!
+
+
+
+|Test 2|
+
+
+PS C:\Users\NaM\Desktop\NEIU\Fall 2019\Natural Language Processing\Code> python recipe_finder.py 2000.txt               
+Hello and welcome to Grubby Recipe Finder!
+Today, we are going to find a recipe based on the things you already have at home.
+Let's get started!
+<----------------------------------------------------------------------------------------------------->
+
+
+ List ingredients that you have on hand (Please separate by a comma(,):steak,mushrooms,squash
+
+The items you listed are:
+
+1 : steak
+
+2 : mushrooms
+
+3 : squash
+
+
+Thank you! Now, I will now match you with recipes that best accomedates your ingredients
+
+
+We have located some matches, let's match you with the best one for you
+
+Please answer yes or no to the options below
+
+
+
+      title  alu gosht kari  meat & potato curry
+ categories  india  beef
+
+
+Do you like this recipe?
+yes
+
+Great! Now let's see if you have additional ingredients to make this recipe
+RESULTS:
+
+
+Do you have or can subsitute the following ingredient:WELL
+no
+
+I'm sorry that you don't have everything, let's look for another one
+
+
+
+      title  ambush chili
+ categories  chili  tex mex  main dish  meats
+
+
+Do you like this recipe?
+yes
+
+Great! Now let's see if you have additional ingredients to make this recipe
+RESULTS:
+
+
+Do you have or can subsitute the following ingredient:SAUCE
+yes
+
+Do you have or can subsitute the following ingredient:THIS
+yes
+
+Do you have or can subsitute the following ingredient:HARINA
+yes
+
+Excellent, you have all the ingredients needed. Here are your results
+
+
+
+      title  ambush chili
+ categories  chili  tex mex  main dish  meats
+       8 servings
+
+      3 lb lean rough grnd chuck steak
+      1 lb lean pork shoulder
+      3    medium onions chopped
+      1    green bell pepper chopped
+      1    red bell pepper chopped
+      8    fresh jalapeno peppers
+             2 seeded & chopped
+            balance gashed
+      2 tb fresh ground cumin
+      1 ts all spice
+      1 tb blackstarp molasses
+     12 oz  1 can  beer not lite
+      2 oz sour mash whiskey
+      1 oz vietnamese hot sauce or
+             tabasco sauce
+      5    cloves garlic crushed
+      3 tb   masa harina  fine yellow
+            corn meal
+      1 tb soy sauce
+      3    bay leaves
+      2 c  stewed tomatos chopped
+      1 c  tomato sauce
+      1 c  tomato paste
+
+  saute  onions  garlic  and chopped peppers in 4 tblspns of peanut oil
+  or bacon grease  add the meat & cook until browned  add other
+  ingredients except the cumin  stir constantly until it reaches a
+  boil  boil for 3 5 minutes then lower heat and cook  stirring often
+  after cooking for 10 minutes add 1 tblspn of cumin and stir it in
+  cook for 1 hour on simmer then add the remnaining cumin  cook for 15
+  minutes more and serve  this the recipe for my own ambush chili  that
+  has won in many cook offs  and is retired from competition  the new
+  recipe is called ambush 2 chili and has been entered now  in some 12
+  cook  offs and has placed each time including 3 1st s   chili rule
+   1  never use beans in chili  they are a side dish  not part of
+  chili
+
+  i believe this is from dandy don huston  down floriday way
+  reposted by bud cloyd
+
+mmmmm
+
+
+
+HAPPY COOKING!
+
+
+Would you like to find another recipe?  yes
+
+ List ingredients that you have on hand (Please separate by a comma(,):olives,onions,mushrooms,sausage
+
+The items you listed are:
+
+1 : olives
+
+2 : onions
+
+3 : mushrooms
+
+4 : sausage
+
+
+Thank you! Now, I will now match you with recipes that best accomedates your ingredients
+
+
+We have located some matches, let's match you with the best one for you
+
+Please answer yes or no to the options below
+
+
+
+      title  amish dip   sandwich spread
+ categories  misc
+
+
+Do you like this recipe?
+yes
+
+Great! Now let's see if you have additional ingredients to make this recipe
+RESULTS:
+
+
+Do you have or can subsitute the following ingredient:WELL
+yes
+
+Do you have or can subsitute the following ingredient:MIX
+yes
+
+Do you have or can subsitute the following ingredient:USE
+yes
+
+Excellent, you have all the ingredients needed. Here are your results
+
+
+
+      title  amish dip   sandwich spread
+ categories  misc
+       6 servings
+
+      8 oz cream cheese
+    1 2 c  mayonnaise
+      1 c  tuna
+    1 2 c  pitted olives
+      2 tb lemon juice
+           black pepper
+
+  mix cheese and mayonnaise well and add other ingredients  use as dip
+  or sandwich filling
+
+mmmmm
+
+
+
+HAPPY COOKING!
+
+
+Would you like to find another recipe?  no
+
+Thank for using our services, have a great day!
+
+
+you have exited the program
+
+|Test 3|
+
+PS C:\Users\NaM\Desktop\NEIU\Fall 2019\Natural Language Processing\Code> python recipe_finder.py 3000.mmf               
+Hello and welcome to Grubby Recipe Finder!
+Today, we are going to find a recipe based on the things you already have at home.
+Let's get started!
+<----------------------------------------------------------------------------------------------------->
+
+
+ List ingredients that you have on hand (Please separate by a comma(,):raspberry
+
+The items you listed are:
+
+1 : raspberry
+
+
+Thank you! Now, I will now match you with recipes that best accomedates your ingredients
+
+
+We have located some matches, let's match you with the best one for you
+
+Please answer yes or no to the options below
+
+
+
+      title  apricot summer sundae
+ categories  desserts  fruits  ice cream
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  arugula & nectarine salad
+ categories  fruits  harned 1994  nuts  salads
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  arugula & nectarine salad
+ categories  fruits  grains  salads
+
+
+Do you like this recipe?
+yes
+
+Great! Now let's see if you have additional ingredients to make this recipe
+RESULTS:
+
+
+Do you have or can subsitute the following ingredient:HARNED
+no
+
+I'm sorry that you don't have everything, let's look for another one
+
+
+
+      title  asparagus salad with raspberry vinegrette
+ categories  side dish  digest
+
+
+Do you like this recipe?
+yes
+
+Great! Now let's see if you have additional ingredients to make this recipe
+RESULTS:
+
+
+Do you have or can subsitute the following ingredient:SWEETNESS
+yes
+
+Do you have or can subsitute the following ingredient:EVERY
+yes
+
+Do you have or can subsitute the following ingredient:HANDS
+yes
+
+Excellent, you have all the ingredients needed. Here are your results
+
+
+
+      title  asparagus salad with raspberry vinegrette
+ categories  side dish  digest
+       4 servings
+
+      2 lb fresh asparagus  washed well
+            and cut into 1  pieces
+      1    red pepper  seeded and cut
+            into 1 4  x 1  pieces
+      1    red onion  chopped
+    1 2 c  raspberry vinegar
+    1 2 c  water
+      1 tb sugar or honey
+      1 ts parsley
+
+  steam the asparagus pieces for 2 minutes   plunge into cold water to
+  stop cooking   drain
+
+  put asparagus  red pepper and onion into a plastic bowl  with cover
+  blend vinegar  water  sugar  honey  and parsley in a separate bowl
+  and then pour over vegetables  adjust seasonings if desired  may want
+  to add more sweetness    stir  cover and refrigerate for at least 24
+  hours  stir every so often
+
+  serve cold as a side salad
+
+  hint   make sure you only use the tender part of the asparagus  my mom
+  taught me that you hold the tip and base of the asparagus in separate
+  hands and then bend it until it breaks  only use the tip end and use
+  the base end for soup or compost it
+
+  lucinda rasmussen  lrasmuss pica army mil  from fatfree digest
+  april may 1994  formatting by sue smith  using mmconv
+
+mmmmm
+
+
+
+HAPPY COOKING!
+
+
+Would you like to find another recipe?  no
+
+Thank for using our services, have a great day!
+
+
+you have exited the program
+
+|Test 4|
+
+PS C:\Users\NaM\Desktop\NEIU\Fall 2019\Natural Language Processing\Code> python recipe_finder.py 4000.mmf               
+Hello and welcome to Grubby Recipe Finder!
+Today, we are going to find a recipe based on the things you already have at home.
+Let's get started!
+<----------------------------------------------------------------------------------------------------->
+
+
+ List ingredients that you have on hand (Please separate by a comma(,):eggplant,squash,olives
+
+The items you listed are:
+
+1 : eggplant
+
+2 : squash
+
+3 : olives
+
+
+Thank you! Now, I will now match you with recipes that best accomedates your ingredients
+
+
+We have located some matches, let's match you with the best one for you
+
+Please answer yes or no to the options below
+
+
+
+      title  baba gannouj
+ categories  vegetarian
+
+
+Do you like this recipe?
+yes
+
+Great! Now let's see if you have additional ingredients to make this recipe
+RESULTS:
+
+
+Do you have or can subsitute the following ingredient:SPECTATOR
+yes
+
+Do you have or can subsitute the following ingredient:JUICE
+yes
+
+Do you have or can subsitute the following ingredient:ONION
+yes
+
+Excellent, you have all the ingredients needed. Here are your results
+
+
+
+      title  baba gannouj
+ categories  vegetarian
+       12 servings
+
+      2 md eggplants
+           juice of 1 1 2 lemons
+    1 4 c  virgin olive oil
+    1 2 ts allspice
+    1 2 ts cinnamon
+    1 2 ts black pepper
+           salt to taste
+           finely chopped parsley
+              green peppers & green
+              onions
+           pita bread
+
+  wash eggplant & pierce at intervals with a fork   set on a baking
+  dish & broil close to heat for 20 minutes  peel & sprinkle quickly
+  with half the lemon juice  cool & chop finely  using a small bowl
+  combine the remaining ingredients   stir into eggplant & refrigerate
+  can be frozen at this point   serve trimmed with parsley  green
+  peppers & green onion with pita
+
+  the hamilton spectator  july 1993
+
+mmmmm
+
+
+
+HAPPY COOKING!
+
+
+Would you like to find another recipe?  no
+
+Thank for using our services, have a great day!
+
+|Test 5|
+
+PS C:\Users\NaM\Desktop\NEIU\Fall 2019\Natural Language Processing\Code> python recipe_finder.py 5000.mmf               
+Hello and welcome to Grubby Recipe Finder!
+Today, we are going to find a recipe based on the things you already have at home.
+Let's get started!
+<----------------------------------------------------------------------------------------------------->
+
+
+ List ingredients that you have on hand (Please separate by a comma(,):jasmine rice
+
+The items you listed are:
+
+1 : jasmine rice
+
+
+Thank you! Now, I will now match you with recipes that best accomedates your ingredients
+
+Hmm, it seems that we were unable to find a match
+
+Would you like to find another recipe?  no
+
+Thank for using our services, have a great day!
+
+
+you have exited the program
+
+|Test 6|
+
+PS C:\Users\NaM\Desktop\NEIU\Fall 2019\Natural Language Processing\Code> python recipe_finder.py 4000kz.mmf             
+Hello and welcome to Grubby Recipe Finder!
+Today, we are going to find a recipe based on the things you already have at home.
+Let's get started!
+<----------------------------------------------------------------------------------------------------->
+
+
+ List ingredients that you have on hand (Please separate by a comma(,):cabbage,potatoes,pork,penne
+
+The items you listed are:
+
+1 : cabbage
+
+2 : potatoes
+
+3 : pork
+
+4 : penne
+
+
+Thank you! Now, I will now match you with recipes that best accomedates your ingredients
+
+
+We have located some matches, let's match you with the best one for you
+
+Please answer yes or no to the options below
+
+
+
+      title  low calorie chinese cabbage  nixon
+ categories  chinese  vegetables
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  low calorie irish colcannon
+ categories  irish
+
+
+Do you like this recipe?
+yes
+
+Great! Now let's see if you have additional ingredients to make this recipe
+RESULTS:
+
+
+Do you have or can subsitute the following ingredient:TB
+yes
+
+Do you have or can subsitute the following ingredient:PILLSBURY
+yes
+
+Do you have or can subsitute the following ingredient:UNTIL
+yes
+
+Excellent, you have all the ingredients needed. Here are your results
+
+
+
+      title  low calorie irish colcannon
+ categories  irish
+       4 servings
+
+      1 c  water
+      1 tb reduced calorie margarine
+    1 4 ts salt
+      3 c  chopped cabbage
+    1 3 c  skim or 1  milk
+      1 c  instant mashed potato flakes
+      1    green onion  finely chopped
+
+  1  in a medium saucepan  combine water  margarine  and salt  bring to
+  boil  stir in cabbage  return to a boil  reduce heat  cover and
+  simmer 4 6 minutes  or until cabbage is tender
+
+  2  remove from heat  stir in milk and potato flakes with fork  stir in
+  onion  cover and let stand 3 minutes
+
+  source   pillsbury fast and healthy magazine  march april  1993 each
+  serving contains   2 breads  1 vegetable  1 2 fat per serving  220
+  cal  per half cup
+
+mmmmm
+
+
+
+HAPPY COOKING!
+
+
+Would you like to find another recipe?  yes
+
+ List ingredients that you have on hand (Please separate by a comma(,):cheese,penne,rice,milk,olive oil
+
+The items you listed are:
+
+1 : cheese
+
+2 : penne
+
+3 : rice
+
+4 : milk
+
+5 : olive oil
+
+
+Thank you! Now, I will now match you with recipes that best accomedates your ingredients
+
+
+We have located some matches, let's match you with the best one for you
+
+Please answer yes or no to the options below
+
+
+
+      title  lover s salad with strawberry vinaigrette
+ categories  salads
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  low cal cheesecake
+ categories  low cal  cakes  desserts  cheesecakes
+
+
+Do you like this recipe?
+yes
+
+Great! Now let's see if you have additional ingredients to make this recipe
+RESULTS:
+
+
+Do you have or can subsitute the following ingredient:SK
+no
+
+I'm sorry that you don't have everything, let's look for another one
+
+
+
+      title  low cal crab dip
+ categories  dips  seafood
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  low cal macaroni bake
+ categories  low cal  pasta
+
+
+Do you like this recipe?
+yes
+
+Great! Now let's see if you have additional ingredients to make this recipe
+RESULTS:
+
+
+Do you have or can subsitute the following ingredient:TB
+yes
+
+Do you have or can subsitute the following ingredient:ADD
+yes
+
+Do you have or can subsitute the following ingredient:CHOPPED
+yes
+
+Excellent, you have all the ingredients needed. Here are your results
+
+
+
+      title  low cal macaroni bake
+ categories  low cal  pasta
+       5 servings
+
+      2 c  macaroni  cooked
+      2 tb margarine
+      2 c  skimmed milk
+      2 ts parsley
+    1 2 ts pepper
+    1 3 c  bread crumbs
+      1    onion  chopped
+    1 4 c  flour
+      2 ts dill weed
+    1 8 ts garlic powder
+      2 c  low fat cottage cheese
+      1 pn paprika
+
+  preheat oven 350f   saute onions in margarine  add flour  stir in
+  milk  little at a time until thick  add spices  add cheese  add
+  macaroni  pour into shallow pan  top with crumbs and paprika  bake 45
+  minutes
+
+mmmmm
+
+
+
+HAPPY COOKING!
+
+
+Would you like to find another recipe?  no
+
+Thank for using our services, have a great day!
+
+
+you have exited the program
+
+|Test 7|
+
+PS C:\Users\NaM\Desktop\NEIU\Fall 2019\Natural Language Processing\Code> python recipe_finder.py 2000.txt               
+Hello and welcome to Grubby Recipe Finder!
+
+Today, we are going to find a recipe based on the things you already have at home.
+Let's get started!
+<----------------------------------------------------------------------------------------------------->
+
+
+ List ingredients that you have on hand (Please separate by a comma(,):veal,green bean,angel hair pasta
+
+The items you listed were:
+
+1 : veal
+
+2 : green bean
+
+3 : angel hair pasta
+
+
+Thank you! Now, let's match you with recipes that best accomedates your ingredients
+
+
+We have located some matches, let's match you with the best one!
+
+
+Please answer 'yes' or 'no' to the options below
+
+
+
+      title  andouille tasso dressing
+ categories  dressings  breakfast
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  angie s egg rolls
+ categories  vegetables  chinese
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  another bean salad
+ categories  salads  vegetables
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  angel hair pasta & stewed tomatoes
+ categories  digest
+
+
+Do you like this recipe?
+yes
+
+Great! Now let's see if you have additional ingredients to make this recipe
+RESULTS:
+
+
+Do you have or can subsitute the following ingredient:JOHNATHAN
+no
+
+I'm sorry that you don't have everything, let's look for another one
+
+
+
+      title  angel hair pasta & stewed tomatoes
+ categories  pasta
+
+
+Do you like this recipe?
+yes
+
+Great! Now let's see if you have additional ingredients to make this recipe
+RESULTS:
+
+
+Do you have or can subsitute the following ingredient:JOHNATHAN
+yes
+
+Do you have or can subsitute the following ingredient:OF
+yes
+
+Do you have or can subsitute the following ingredient:THAT
+yes
+
+Excellent, you have all the ingredients needed. Here are your results
+
+
+
+      title  angel hair pasta & stewed tomatoes
+ categories  pasta
+       1 servings
+
+      1    box angel hair pasta
+      2 cn stewed tomatoes
+            juice from one lemon
+             small
+      1 c  broccoli  chopped
+      3    cloves garlic  chopped up
+            fine
+      2 ts fresh oregono
+      1 ts basil
+      1 ts thyme
+
+  cook pasta   cook broccoli  steam or boil    mix pasta  broccoli and
+  rest of ingrediants   its that easy and tastes great  i ll be having
+  it for lunch today  shared by johnathan adams
+
+  from genie f&w library ffd9403 txt recipes from the fat free digest
+  from fatfree digest april may 1994  formatting by sue smith  using
+  mmconv
+
+mmmmm
+
+
+
+Would you like to find another recipe?  no
+
+Thank for using our services, have a great day!
+
+
+you have exited the program
+
+
+|Test 8.|
+
+PS C:\Users\NaM\Desktop\NEIU\Fall 2019\Natural Language Processing\Code> python recipe_finder.py 3000.mmf               
+Hello and welcome to Grubby Recipe Finder!
+
+Today, we are going to find a recipe based on the things you already have at home.
+Let's get started!
+<----------------------------------------------------------------------------------------------------->
+
+
+ List ingredients that you have on hand (Please separate by a comma(,):sausage,green beans, cucumber
+
+The items you listed were:
+
+1 : sausage
+
+2 : green beans
+
+3 :  cucumber
+
+
+Thank you! Now, let's match you with recipes that best accomedates your ingredients
+
+
+We have located some matches, let's match you with the best one!
+
+
+Please answer 'yes' or 'no' to the options below
+
+
+
+      title  applesauced meat loaf
+ categories  archives of  dinner  fruits  sauces
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  armadillo eggs
+ categories  appetizers  cheese eggs  tex mex
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  armadillo eggs
+ categories  appetizers  tex mex  hot
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  arroz valenciana  rice casserole
+ categories  casseroles  chicken  grains rice  phillipines
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  artis  chicken gumbo
+ categories  chicken  sausage  soups  vegetables  main dish
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  asbourne gingerbread
+ categories  cookies
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  ashbourne gingerbread english
+ categories  english
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  aunt bunny s stuffing
+ categories  fruits  poultry  holiday
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  aussie meatloaf
+ categories  meats
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  authentic texas border chili
+ categories  chili
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  arabian stew
+ categories  meats
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  arnaki se fillo  lamb in fillo
+ categories  greek  meats  lamb
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  arni exohiko   surprise  lamb  country style
+ categories  greek  meats  lamb
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  artichokes & green beans
+ categories  diabetic  side dish  vegetables
+
+
+Do you like this recipe?
+yes
+
+Great! Now let's see if you have additional ingredients to make this recipe
+RESULTS:
+
+
+Do you have or can subsitute the following ingredient:RED
+yes
+
+Do you have or can subsitute the following ingredient:&
+yes
+
+Do you have or can subsitute the following ingredient:DRAIN
+yes
+
+Excellent, you have all the ingredients needed. Here are your results
+
+
+
+      title  artichokes & green beans
+ categories  diabetic  side dish  vegetables
+       4 sweet ones
+
+    1 2 lb sm jerusalem artichokes
+             sunchokes   sliced
+    3 4 lb fresh green beans
+      2 cl garlic  minced
+      2 ts walnut oil
+    1 2    red pepper  diced
+      2 tb 1fresh lemon juice
+      1 tb walnuts  chopped
+           pepper to taste
+
+  wash and trim artichokes and beans   bring a large kettle of water to
+  a boil and cook artichokes until tender  about 15 minutes minutes
+  add green beans and cook 3 to 4 minutes  drain and keep warm  saute
+  garlic 1 minutes in walnut oil  tne add bell pepper to warm  mix all
+  ingredients together and serve  food exchange per serving  1
+  starch bread exchange + 1 fat exchange  cal  124  cho  0mg  car  20g
+  pro  4g  sod  6mg  fat  4g
+
+  source  light & easy diabetes cuisine by betty marks brought to you
+  and yours via nancy o brion and her meal master
+
+mmmmm
+
+
+
+Would you like to find another recipe?  yes
+
+ List ingredients that you have on hand (Please separate by a comma(,):veal
+
+The items you listed were:
+
+1 : veal
+
+
+Thank you! Now, let's match you with recipes that best accomedates your ingredients
+
+
+We have located some matches, let's match you with the best one!
+
+
+Please answer 'yes' or 'no' to the options below
+
+
+
+      title  arpagyongy kremleves  cream of pearl barley s
+ categories  soups stews  hungary  upload  hungarian
+
+
+Do you like this recipe?
+yes
+
+Great! Now let's see if you have additional ingredients to make this recipe
+RESULTS:
+
+
+Do you have or can subsitute the following ingredient:MAKE
+yes
+
+Do you have or can subsitute the following ingredient:IT
+no
+
+I'm sorry that you don't have everything, let's look for another one
+
+
+
+      title  artichoke khoresh
+ categories  artichokes  chicken  persian  stew
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+W e
+
+Would you like to find another recipe?  no
+
+Thank for using our services, have a great day!
+
+
+You have exited the program...............
+
+
+|Test 9|
+
+PS C:\Users\NaM\Desktop\NEIU\Fall 2019\Natural Language Processing\Code> python recipe_finder.py 4000.mmf               
+Hello and welcome to Grubby Recipe Finder!
+
+Today, we are going to find a recipe based on the things you already have at home.
+Let's get started!
+<----------------------------------------------------------------------------------------------------->
+
+
+ List ingredients that you have on hand (Please separate by a comma(,):blueberries,raspberries, cucumber
+
+The items you listed were:
+
+1 : blueberries
+
+2 : raspberries
+
+3 :  cucumber
+
+
+Thank you! Now, let's match you with recipes that best accomedates your ingredients
+
+
+We have located some matches, let's match you with the best one!
+
+
+Please answer 'yes' or 'no' to the options below
+
+
+
+      title  banana blueberry bread
+ categories  breads
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  banana blueberry muffins    no  1796
+ categories  fruits
+
+
+Do you like this recipe?
+yes
+
+Great! Now let's see if you have additional ingredients to make this recipe
+RESULTS:
+
+
+Do you have or can subsitute the following ingredient:&
+yes
+
+Do you have or can subsitute the following ingredient:MOISTENED
+yes
+
+Do you have or can subsitute the following ingredient:COAT
+yes
+
+Excellent, you have all the ingredients needed. Here are your results
+
+
+
+      title  banana blueberry muffins    no  1796
+ categories  fruits
+       4 servings
+
+
+        1 c  pureed overripe bananas
+      1 2 ts baking soda
+      1 2 ts salt
+        6 tb sweet butter
+      1 2 ts lemon peel  grated
+        6 tb brown sugar
+        1 c  frozen blueberries rinsed
+             and drained
+        1    egg
+    1 1 2 c  all purpose flour
+      1 2 ts baking powder
+
+  preheat the oven to 375 degrees  cream the butter and brown sugar
+  until light and fluffy  mix in the banana and egg  combine the flour
+  baking powder  baking soda  salt and lemon peel  blend into the
+  banana mixture by hand until just moistened  do not over blend
+  gently fold in the blueberries  line large muffin cups with paper
+  liners  coat the liners lightly with vegetable spray  fill each cup a
+  little more than half full  bake until muffins test done with a
+  wooden toothpick  20 25 minutes
+
+
+
+  notes   yields 6 muffin recipe by
+
+
+  from  eileen & bob holze  beck4 asan codate  thu  17 oct 1996 12 00 03
+   0400
+
+mmmmm
+
+
+
+Would you like to find another recipe?  yes
+
+ List ingredients that you have on hand (Please separate by a comma(,):brandy,beef
+
+The items you listed were:
+
+1 : brandy
+
+2 : beef
+
+
+Thank you! Now, let's match you with recipes that best accomedates your ingredients
+
+
+We have located some matches, let's match you with the best one!
+
+
+Please answer 'yes' or 'no' to the options below
+
+
+
+      title  baby artichoke calvados saute
+ categories  gourmet  pork
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  baerenfang
+ categories  cyberealm  beverages
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  baja side car
+ categories  boat  drinks  alcohol
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  baked apples with brandy sauce
+ categories  desserts  fruits
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  baked apples with dried cherries & maple cara
+ categories  apples  desserts  sauces  alcohol  fruits
+
+
+Do you like this recipe?
+no
+
+I'm sorry, let's find something else for you
+
+
+
+      title  baked brie in puff pastry with cranberry sauc
+ categories  appetizers
+
+
+Do you like this recipe?
+yes
+
+Great! Now let's see if you have additional ingredients to make this recipe
+RESULTS:
+
+
+Do you have or can subsitute the following ingredient:&
+yes
+
+Do you have or can subsitute the following ingredient:MAKE
+yes
+
+Do you have or can subsitute the following ingredient:ROLL
+yes
+
+Excellent, you have all the ingredients needed. Here are your results
+
+
+
+      title  baked brie in puff pastry with cranberry sauc
+ categories  appetizers
+       10 servings
+
+mmmmm                      cranberry sauce
+      1 lb fresh or thawed frozen
+            cranberries  about 4 1 2
+            cups   picked over
+    1 4 c  red currant jelly
+    3 4 c  demerara or light brown
+            sugar
+      2 tb fresh lemon juice
+      2 tb kirsch or brandy
+
+mmmmm                          pastries
+      1    wheel  2 pound  firm brie
+             rind intact   chilled
+      2 pk  17 1 4 ounce  frozen puff
+            pastry sheets  4 pastry
+            sheets   thawed
+      1 lg egg  beaten lightly
+
+  make cranberry sauce  in a large saucepan simmer sauce ingredients
+  stirring frequently  until thickened  about 20 minutes  transfer
+  sauce to a heatproof bowl and cool  cranberry sauce may be made 1
+  week ahead and chilled  covered
+
+  put brie on a work surface and with a 2 inch round cutter cut out 10
+  rounds  pressing scraps together as necessary  press thumb deep into
+  middle of each round to form a small indentation and fill each cavity
+  with about 1 teaspoon cranberry sauce  reserving remaining sauce
+  chill cheese rounds on a baking sheet
+
+  on a lightly floured surface unfold 1 pastry sheet  do not roll out
+  pastry  and with a 2 1 4 inch round cutter cut out 10 rounds
+  transfer pastry rounds to another baking sheet and chill  unfold
+  remaining 3 pastry sheets and with a 5 inch round cutter cut out 10
+  rounds  there will be pastry left over   transfer pastry rounds to a
+  third baking sheet and chill
+
+  on cleaned work surface arrange 1 large pastry round and brush top
+  with some egg  center 1 cheese round on pastry and wrap pastry up
+  over cheese to form a 3 4 inch border on top of cheese  brush border
+  with some remaining egg and top with 1 small pastry round  pressing
+  edges of dough together gently but firmly to seal  brush round with
+  some remaining egg and chill on a baking sheet  make more wrapped
+  brie with remaining pastry and cheese rounds in same manner  chill
+  each wrapped brie  uncovered  at least 30 minutes  brie may be
+  prepared up to this point 1 day ahead and chilled  covered loosely
+
+  preheat oven to 425 f  and lightly grease another baking sheet
+
+  bake brie on baking sheet in middle of oven 15 minutes  or until
+  puffed and golden  cool brie on baking sheet on a rack about 10
+  minutes
+
+  serve brie warm with reserved cranberry sauce
+
+  serves 10 as a first course
+
+  from cody s wine bar & restaurant windsor  england gourmet december
+     1995    you asked for it
+
+mmmmm
+
+
+
+Would you like to find another recipe?  no
+
+Thank for using our services, have a great day!
+
+
+You have exited the program...............
+
+|Test 10|
+
+PS C:\Users\NaM\Desktop\NEIU\Fall 2019\Natural Language Processing\Code> python recipe_finder.py 5000.mmf                                                                                   
+Hello and welcome to Grubby Recipe Finder!
+
+Today, we are going to find a recipe based on the things you already have at home.
+Let's get started!
+<----------------------------------------------------------------------------------------------------->
+
+
+ List ingredients that you have on hand (Please separate by a comma(,):chicken breasts, tomoatoes
+
+The items you listed were:
+
+1 : chicken breasts
+
+2 :  tomoatoes
+
+
+Thank you! Now, let's match you with recipes that best accomedates your ingredients
+
+
+We have located some matches, let's match you with the best one!
+
+
+Please answer 'yes' or 'no' to the options below
+
+
+
+      title  bangkok chicken
+ categories  poultry  cathe
+
+
+Do you like this recipe?
+yes
+
+Great! Now let's see if you have additional ingredients to make this recipe
+RESULTS:
+
+
+Do you have or can subsitute the following ingredient:COOKED
+yes
+
+Do you have or can subsitute the following ingredient:SHRIMP
+yes
+
+Do you have or can subsitute the following ingredient:CLOVES
+yes
+
+Excellent, you have all the ingredients needed. Here are your results
+
+
+
+      title  bangkok chicken
+ categories  poultry  cathe
+       1 batch
+
+      3    chicken breasts  boned
+      3 tb flour
+      1 tb salt
+      4 tb olive oil
+      1 md onion  chopped
+      3 sl ham  cooked  or more   diced
+      2    garlic cloves  minced
+      1 c  beer  not dark
+    1 2 lb shrimp  large
+    1 2 ts paprika
+      1 tb parsley  dried
+    1 2 ts tabasco sauce  optional
+
+  mix flour and salt  dredge chicken breasts   in large skillet  brown
+  chicken in olive oil and remove
+
+  combine onion  ham and garlic and saute in same skillet over low heat
+  until onion is soft    don t let garlic stick to skillet   remove
+  drain all but 1 t of the oil and pour in flour left from dredging
+  chicken  stir a lot to make sure flour is well blended  return ham
+  mixture
+
+  clean and devein shrimp   to ham  add beer  shrimp  parsley  paprika
+  and tabasco  mix well   add chicken  cover and simmer for 20 minutes
+  serve with rice or garlic bread
+
+mmmmm
+
+
+
+Would you like to find another recipe?  no
+
+Thank for using our services, have a great day!
+
+
+You have exited the program...............
+
+
